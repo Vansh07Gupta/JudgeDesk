@@ -1,6 +1,6 @@
-// import FormComponent from "@/components/forms/FormComponent"
+import FormComponent from "@components/forms/FormComponent"
 import { useEffect, useState } from "react"
-// import Footer from "@/components/common/Footer"
+import Footer from "@/components/common/Footer"
 
 function HomePage() {
     const [mounted, setMounted] = useState(false)
